@@ -295,6 +295,27 @@ h3 {
   color: rgba(164, 176, 184, 0.75);
 }
 
+.form-status {
+  margin: 0.2rem 0 0;
+  padding: 0.6rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: rgba(22, 28, 33, 0.6);
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.form-status.success {
+  border-color: rgba(95, 180, 172, 0.55);
+  background: rgba(47, 143, 135, 0.18);
+  color: #b7e7e2;
+}
+
+.form-status.error {
+  border-color: rgba(195, 116, 116, 0.55);
+  background: rgba(130, 51, 51, 0.22);
+  color: #f0c3c3;
+}
 .hint {
   color: var(--muted);
   font-size: 0.85rem;
@@ -333,3 +354,4 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
